@@ -1,0 +1,9 @@
+**/node_modules/
+**/.git
+**/README.md
+**/.vscode
+**/.env
+**/dist
+todo.txt
+data
+backup

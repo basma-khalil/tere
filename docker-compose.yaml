@@ -1,0 +1,10 @@
+services:
+  app:
+    image: tere:1.0
+    build: ./app
+    container_name: tere_c
+    ports:
+      - "5173:5173"
+    volumes:
+      - ./app:/app
+      - /app/node_modules

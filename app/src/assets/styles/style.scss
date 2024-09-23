@@ -1,0 +1,18 @@
+// Import font
+@font-face {
+  font-family: Gilroy;
+  src: url('/assets/fonts/gilroy-regular.ttf');
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url('/assets/fonts/gilroy-bold.ttf');
+  font-weight: bold;
+}
+
+// Custom variables
+$font-family-base: Gilroy, sans-serif;
+$primary: #75bf7a;
+
+// Import bootstrap
+@import "bootstrap/scss/bootstrap";
