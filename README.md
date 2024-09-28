@@ -28,7 +28,7 @@ A static business/service landing page built based on the Tere template
 
 ### Description
 
-This project converted the free [**Figma**](https://www.figma.com/ "Go to website") Tere template into a pixel-perfect website, bootstrapped with [**Vite**](https://vitejs.dev/ "Go to website"), built using semantic HTML, [**TypeScript**](https://www.typescriptlang.org/ "Go to website"), and styled with [**Bootstrap**](https://getbootstrap.com/ "Go to website").
+This project converted the free [**Figma**](https://www.figma.com/ "Go to website") Tere template into a responsive website, bootstrapped with [**Vite**](https://vitejs.dev/ "Go to website"), built using semantic HTML, [**TypeScript**](https://www.typescriptlang.org/ "Go to website"), and styled with [**Bootstrap**](https://getbootstrap.com/ "Go to website").
 
 In addition, this project serves as a simple practice for implementing [**Docker**](https://www.docker.com/ "Go to website"), [**Docker Compose**](https://docs.docker.com/compose/ "Go to website"), and [**GraphQL**](https://graphql.org/ "Go to website") within a modern development environment.
 
@@ -127,7 +127,7 @@ npm run build
 ## Credits
 
 - **Author:** you can find Tere template on [UXCRUSH](https://www.uxcrush.com/ride-sharing-figma-website-template/ "Go to website") designed by [Saddam Shadab](https://www.figma.com/@saddamshadab "Go to profile")
-- **Libraries:** [AOS](https://michalsnik.github.io/aos "Go to website") | [Apollo Server](https://www.apollographql.com/docs/apollo-server/ "Go to website")
+- **Libraries:** [AOS](https://michalsnik.github.io/aos "Go to website") | [Apollo Client](https://www.apollographql.com/docs/react "Go to website")
 - **Fonts:** [Gilroy](https://www.tinkov.info/gilroy.html "Go to website")
 
 ## License
@@ -140,4 +140,4 @@ This code is licensed under the **Attribution-NonCommercial-ShareAlike** License
 
 ## Demo
 
-For Demo of this template you can visit [tere.vercel.app](https://tere.vercel.app "Go to demo")
+For Demo of this template you can visit [tere-theme.vercel.app](https://tere-theme.vercel.app "Go to demo")
