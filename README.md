@@ -127,7 +127,7 @@ npm run build
 ## Credits
 
 - **Author:** you can find Tere template on [UXCRUSH](https://www.uxcrush.com/ride-sharing-figma-website-template/ "Go to website") designed by [Saddam Shadab](https://www.figma.com/@saddamshadab "Go to profile")
-- **Libraries:** [AOS](https://michalsnik.github.io/aos "Go to website") | [Apollo Server](https://www.apollographql.com/docs/apollo-server/ "Go to website")
+- **Libraries:** [AOS](https://michalsnik.github.io/aos "Go to website") | [Apollo Client](https://www.apollographql.com/docs/react "Go to website")
 - **Fonts:** [Gilroy](https://www.tinkov.info/gilroy.html "Go to website")
 
 ## License
@@ -140,4 +140,4 @@ This code is licensed under the **Attribution-NonCommercial-ShareAlike** License
 
 ## Demo
 
-For Demo of this template you can visit [tere.vercel.app](https://tere.vercel.app "Go to demo")
+For Demo of this template you can visit [tere-theme.vercel.app](https://tere-theme.vercel.app "Go to demo")
