@@ -6,8 +6,20 @@
 
 @font-face {
   font-family: Gilroy;
+  src: url('/assets/fonts/gilroy-medium.ttf');
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: Gilroy;
   src: url('/assets/fonts/gilroy-bold.ttf');
-  font-weight: bold;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: Gilroy;
+  src: url('/assets/fonts/gilroy-heavy.ttf');
+  font-weight: 800;
 }
 
 // Custom variables
