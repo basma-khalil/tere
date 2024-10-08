@@ -33,3 +33,8 @@ $font-weight-bolder: 800;
 .hero {
     min-height: calc(100vh - 106px);
 }
+
+form input,
+form button {
+    height: 50px;
+}
