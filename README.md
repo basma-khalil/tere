@@ -34,6 +34,8 @@ In addition, this project serves as a simple practice for implementing [**Docker
 
 ### Preview
 
+https://github.com/user-attachments/assets/f0b094b9-1a78-4a25-8301-139d420f05a4
+
 ### Built With
 
 [![Built With](https://skillicons.dev/icons?i=html,sass,typescript,bootstrap,vite,graphql,apollo,docker,figma,vercel)](https://skillicons.dev "Go to Skill Icons")
