@@ -24,6 +24,7 @@
               <a href="/">
                 <img
                   src="./src/assets/images/logo.svg"
+                  class="img-fluid"
                   alt="Tere"
                   width="140"
                   height="40"
@@ -73,373 +74,412 @@
       </header>
       <!-- End Header -->
 
-      <!-- Start Hero Section -->
-      <div class="hero py-5">
-        <div class="container">
-          <div class="row">
-            <figure
-              class="col-12 col-lg-6 order-lg-last d-flex justify-content-center align-items-center mb-5 mb-lg-0"
-            >
-              <img
-                src="./src/assets/images/hero.png"
-                alt="Tere"
-                class="img-fluid"
-              />
-            </figure>
+      <!-- Start Main -->
+      <main>
+        <!-- Start Hero Section -->
+        <div class="hero py-5">
+          <div class="container">
+            <div class="row">
+              <figure
+                class="col-12 col-lg-6 order-lg-last d-flex justify-content-center align-items-center mb-5 mb-lg-0"
+              >
+                <img
+                  src="./src/assets/images/hero.png"
+                  alt="Tere"
+                  class="img-fluid"
+                  width="553"
+                  height="584"
+                />
+              </figure>
 
-            <div
-              class="col-lg-6 d-flex flex-column align-items-center align-items-lg-start justify-content-end text-center text-lg-start"
-            >
-              <section>
-                <h2 class="mb-3 display-4 fw-bolder text-uppercase">
-                  download app, save money, make friends!
-                </h2>
-                <p class="fs-4">
-                  Its simple and its free. Play your part in reducing Carbon
-                  Footprint and help Mother Nature to sustain its beauty. So
-                  what are you waiting for ? Lets ride together
-                </p>
-              </section>
-              <div class="d-flex gap-4 mt-4 mt-lg-5">
-                <a
-                  class="btn btn-primary d-flex align-items-center py-2 px-3 px-md-4 text-white bg-black fw-bold text-uppercase"
-                  href="#"
-                >
-                  <img
-                    src="./src/assets/images/play-store.svg"
-                    alt="Play store"
-                    width="34"
-                    height="31"
-                  />
-                  <span class="ms-2">download</span>
-                </a>
-                <a
-                  class="btn btn-primary d-flex align-items-center py-2 px-3 px-md-4 text-white bg-black fw-bold text-uppercase"
-                  href="#"
-                >
-                  <img
-                    src="./src/assets/images/app-store.svg"
-                    alt="App store"
-                    width="31"
-                    height="31"
-                  />
-                  <span class="ms-2">download</span>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End Hero Section -->
-
-      <!-- Start Apply Section -->
-      <div>
-        <div class="container bg-primary py-4 px-5 rounded">
-          <div class="row align-items-center">
-            <div class="col-12 col-md-4">
-              <p class="mb-0 pe-5 pe-md-0 pe-lg-5 text-white lead fw-medium">
-                Let’s go. Get a link to download the app.
-              </p>
-            </div>
-
-            <div class="col-12 col-md-8">
-              <form>
-                <div class="row">
-                  <div class="col-12 col-md-7 col-lg-8">
-                    <label class="visually-hidden" for="tel"
-                      >Enter mobile phone number</label
-                    >
-                    <input
-                      type="tel"
-                      id="tel"
-                      class="form-control my-3 my-md-0 px-4 border-0"
-                      name="tel"
-                      placeholder="Enter mobile phone number"
-                      autocomplete="tel"
+              <div
+                class="col-lg-6 d-flex flex-column align-items-center align-items-lg-start justify-content-end text-center text-lg-start"
+              >
+                <section>
+                  <h2 class="mb-3 display-4 fw-bolder text-uppercase">
+                    download app, save money, make friends!
+                  </h2>
+                  <p class="fs-4">
+                    Its simple and its free. Play your part in reducing Carbon
+                    Footprint and help Mother Nature to sustain its beauty. So
+                    what are you waiting for ? Lets ride together
+                  </p>
+                </section>
+                <div class="d-flex gap-4 mt-4 mt-lg-5">
+                  <a
+                    class="btn btn-dark d-flex align-items-center py-2 px-3 px-md-4 fw-bold text-uppercase"
+                    href="#"
+                  >
+                    <img
+                      src="./src/assets/images/play-store.svg"
+                      alt="Play store"
+                      width="34"
+                      height="31"
                     />
-                  </div>
+                    <span class="ms-2">download</span>
+                  </a>
+                  <a
+                    class="btn btn-dark d-flex align-items-center py-2 px-3 px-md-4 fw-bold text-uppercase"
+                    href="#"
+                  >
+                    <img
+                      src="./src/assets/images/app-store.svg"
+                      alt="App store"
+                      width="31"
+                      height="31"
+                    />
+                    <span class="ms-2">download</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Hero Section -->
 
-                  <div class="col-12 col-md-5 col-lg-4">
-                    <button
-                      type="submit"
-                      class="btn btn-primary w-100 text-white bg-black fw-bold text-uppercase"
+        <!-- Start Apply Section -->
+        <div>
+          <div class="container bg-primary py-4 px-5 rounded">
+            <div class="row align-items-center">
+              <div class="col-12 col-md-4">
+                <p class="mb-0 pe-5 pe-md-0 pe-lg-5 text-white lead fw-medium">
+                  Let’s go. Get a link to download the app.
+                </p>
+              </div>
+
+              <div class="col-12 col-md-8">
+                <form
+                  method="post"
+                  onsubmit="event.preventDefault(); alert('Your request has been sent'); reset()"
+                >
+                  <div class="row">
+                    <div class="col-12 col-md-7 col-lg-8">
+                      <label class="visually-hidden" for="tel"
+                        >Enter mobile phone number</label
+                      >
+                      <input
+                        type="tel"
+                        id="tel"
+                        class="form-control my-3 my-md-0 px-4 border-0"
+                        name="tel"
+                        placeholder="Enter mobile phone number"
+                        autocomplete="tel"
+                        pattern="^[+]?[0-9]{6,17}$"
+                        oninvalid="setCustomValidity('Please enter a valid phone number')"
+                        oninput="setCustomValidity('')"
+                        required
+                      />
+                    </div>
+
+                    <div class="col-12 col-md-5 col-lg-4">
+                      <button
+                        type="submit"
+                        class="btn btn-dark w-100 fw-bold text-uppercase"
+                      >
+                        apply to drive
+                      </button>
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Apply Section -->
+
+        <!-- Start How Tere Works Section -->
+        <div id="how-works" class="py-5">
+          <div class="container">
+            <section class="py-4 text-center">
+              <h2 class="mb-3 fw-bolder text-uppercase">
+                how <span class="text-primary">tere</span> works
+              </h2>
+              <div class="row justify-content-center">
+                <div class="col-12 col-lg-6">
+                  <p class="lead" data-aos="zoom-in" data-aos-once="true">
+                    Download and install the tere app. Enter your phone number
+                    and make your user account. when approved you may start
+                    driving.
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            <div class="row pt-4">
+              <div class="col-12 col-lg-4 order-lg-2">
+                <!-- Start Carousel -->
+                <div class="circle position-relative">
+                  <div class="carousel-bg position-relative">
+                    <div id="carousel" class="carousel slide">
+                      <div class="carousel-indicators">
+                        <button
+                          type="button"
+                          data-bs-target="#carousel"
+                          data-bs-slide-to="0"
+                          class="active"
+                          aria-current="true"
+                          aria-label="Slide 1"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#carousel"
+                          data-bs-slide-to="1"
+                          aria-label="Slide 2"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#carousel"
+                          data-bs-slide-to="2"
+                          aria-label="Slide 3"
+                        ></button>
+                        <button
+                          type="button"
+                          data-bs-target="#carousel"
+                          data-bs-slide-to="3"
+                          aria-label="Slide 4"
+                        ></button>
+                      </div>
+
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img
+                            src="./src/assets/images/slide1-home.png"
+                            class="d-block w-100 img-fluid"
+                            alt="Request a ride"
+                            width="244"
+                            height="542"
+                          />
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            src="./src/assets/images/slide3-publish-a-ride.png"
+                            class="d-block w-100 img-fluid"
+                            alt="Post a ride"
+                            width="244"
+                            height="542"
+                          />
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            src="./src/assets/images/slide4-notifications.png"
+                            class="d-block w-100 img-fluid"
+                            alt="Instant notifications"
+                            width="244"
+                            height="542"
+                          />
+                        </div>
+                        <div class="carousel-item">
+                          <img
+                            src="./src/assets/images/slide5-payment.png"
+                            class="d-block w-100 img-fluid"
+                            alt="Cashless payment"
+                            width="244"
+                            height="542"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- End Carousel -->
+              </div>
+
+              <div class="col-12 col-lg-4 order-lg-1">
+                <section
+                  class="step pt-5 d-flex flex-column align-items-center align-items-lg-end"
+                >
+                  <div class="step_num-wrap h4 rounded-circle overflow-hidden">
+                    <div
+                      class="step_num position-relative d-flex justify-content-center align-items-center border border-5 border-primary rounded-circle"
                     >
-                      apply to drive
-                    </button>
+                      <span class="text-primary fw-bolder z-2">1</span>
+                    </div>
                   </div>
-                </div>
-              </form>
+                  <h3
+                    class="h4 text-center text-lg-end fw-bolder text-uppercase"
+                  >
+                    request a ride
+                  </h3>
+                  <p class="text-center text-lg-end">
+                    Have to reach office or going for shopping ? Just put your
+                    current location and destination and search a ride that
+                    suits you
+                  </p>
+                </section>
+
+                <section
+                  class="step pt-5 d-flex flex-column align-items-center align-items-lg-end"
+                >
+                  <div class="step_num-wrap h4 rounded-circle overflow-hidden">
+                    <div
+                      class="step_num position-relative d-flex justify-content-center align-items-center border border-5 border-primary rounded-circle"
+                    >
+                      <span class="text-primary fw-bolder z-2">2</span>
+                    </div>
+                  </div>
+                  <h3
+                    class="h4 text-center text-lg-ens fw-bolder text-uppercase"
+                  >
+                    post a ride
+                  </h3>
+                  <p class="text-center text-lg-end">
+                    Going somewhere but hate to travel alone - just post your
+                    ride details and publish it
+                  </p>
+                </section>
+              </div>
+
+              <div class="col-12 col-lg-4 order-lg-3">
+                <section
+                  class="step pt-5 d-flex flex-column align-items-center align-items-lg-start"
+                >
+                  <div class="step_num-wrap h4 rounded-circle overflow-hidden">
+                    <div
+                      class="step_num position-relative d-flex justify-content-center align-items-center border border-5 border-primary rounded-circle"
+                    >
+                      <span class="text-primary fw-bolder z-2">3</span>
+                    </div>
+                  </div>
+                  <h3
+                    class="h4 text-center text-lg-start fw-bolder text-uppercase"
+                  >
+                    instant notifications
+                  </h3>
+                  <p class="text-center text-lg-start">
+                    Get instant notifications for your rides and be in contact
+                    with fellow riders all the time
+                  </p>
+                </section>
+
+                <section
+                  class="step pt-5 d-flex flex-column align-items-center align-items-lg-start"
+                >
+                  <div class="step_num-wrap h4 rounded-circle overflow-hidden">
+                    <div
+                      class="step_num position-relative d-flex justify-content-center align-items-center border border-5 border-primary rounded-circle"
+                    >
+                      <span class="text-primary fw-bolder z-2">4</span>
+                    </div>
+                  </div>
+                  <h3
+                    class="h4 text-center text-lg-start fw-bolder text-uppercase"
+                  >
+                    cashless payment
+                  </h3>
+                  <p class="text-center text-lg-start">
+                    Payment made easy by using your own Wallet - no more cash to
+                    carry
+                  </p>
+                </section>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- End Apply Section -->
+        <!-- End How Tere Works Section -->
 
-      <!-- Start How Tere Works Section -->
-      <div id="how-works" class="py-5">
-        <div class="container">
-          <section class="py-4 text-center">
-            <h2 class="mb-3 fw-bolder text-uppercase">
-              how <span class="text-primary">tere</span> works
+        <!-- Start Tere Benefits Section -->
+        <div id="benefits" class="py-5">
+          <div class="container">
+            <h2 class="mb-5 text-center fw-bolder text-uppercase">
+              <span class="text-primary">tere</span> benefits
             </h2>
-            <div class="row justify-content-center">
-              <div class="col-12 col-lg-6">
-                <p class="lead" data-aos="zoom-in" data-aos-once="true">
-                  Download and install the tere app. Enter your phone number and
-                  make your user account. when approved you may start driving.
-                </p>
-              </div>
-            </div>
-          </section>
 
-          <div class="row pt-4">
-            <div class="col-12 col-lg-4 order-lg-2">
-              <!-- Start Carousel -->
-              <div class="circle position-relative">
-                <div class="carousel-bg position-relative">
-                  <div id="carousel" class="carousel slide">
-                    <div class="carousel-indicators">
-                      <button
-                        type="button"
-                        data-bs-target="#carousel"
-                        data-bs-slide-to="0"
-                        class="active"
-                        aria-current="true"
-                        aria-label="Slide 1"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#carousel"
-                        data-bs-slide-to="1"
-                        aria-label="Slide 2"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#carousel"
-                        data-bs-slide-to="2"
-                        aria-label="Slide 3"
-                      ></button>
-                      <button
-                        type="button"
-                        data-bs-target="#carousel"
-                        data-bs-slide-to="3"
-                        aria-label="Slide 4"
-                      ></button>
-                    </div>
-
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img
-                          src="./src/assets/images/slide1-home.png"
-                          class="d-block w-100"
-                          alt="Request a ride"
-                        />
-                      </div>
-                      <div class="carousel-item">
-                        <img
-                          src="./src/assets/images/slide3-publish-a-ride.png"
-                          class="d-block w-100"
-                          alt="Post a ride"
-                        />
-                      </div>
-                      <div class="carousel-item">
-                        <img
-                          src="./src/assets/images/slide4-notifications.png"
-                          class="d-block w-100"
-                          alt="Instant notifications"
-                        />
-                      </div>
-                      <div class="carousel-item">
-                        <img
-                          src="./src/assets/images/slide5-payment.png"
-                          class="d-block w-100"
-                          alt="Cashless payment"
-                        />
-                      </div>
-                    </div>
+            <div class="overflow-x-hidden">
+              <div
+                class="row align-items-center my-5"
+                data-aos="fade-right"
+                data-aos-once="true"
+              >
+                <figure class="col-12 col-lg-4 offset-lg-2 text-center">
+                  <img
+                    src="./src/assets/images/benefits-flexible.png"
+                    class="img-fluid"
+                    alt="Flexible working hours"
+                    width="257"
+                    height="255"
+                    loading="lazy"
+                  />
+                </figure>
+                <div
+                  class="col-12 col-lg-4 flex-column order-lg-first py-4 px-5"
+                >
+                  <div
+                    class="d-flex align-items-center justify-content-center justify-content-lg-start gap-4 pb-4"
+                  >
+                    <span class="display-3 fw-medium text-primary">01.</span>
+                    <h3 class="fw-semibold">Flexible working hours</h3>
                   </div>
+                  <p class="text-center text-lg-start fw-medium">
+                    You can decide when, and how much time you want to drive.
+                  </p>
                 </div>
               </div>
-              <!-- End Carousel -->
-            </div>
 
-            <div class="col-12 col-lg-4 order-lg-1">
-              <section
-                class="step pt-5 d-flex flex-column align-items-center align-items-lg-end"
+              <div
+                class="row align-items-center my-5"
+                data-aos="fade-left"
+                data-aos-once="true"
               >
-                <div class="step_num-wrap h4 rounded-circle overflow-hidden">
+                <figure class="col-12 col-lg-4 offset-lg-2 text-center">
+                  <img
+                    src="./src/assets/images/benefits-earnings.png"
+                    class="img-fluid"
+                    alt="Flexible working hours"
+                    width="248"
+                    height="227"
+                    loading="lazy"
+                  />
+                </figure>
+                <div class="col-12 col-lg-4 offset-lg-2 flex-column py-4 px-5">
                   <div
-                    class="step_num position-relative d-flex justify-content-center align-items-center border border-5 border-primary rounded-circle"
+                    class="d-flex align-items-center justify-content-center justify-content-lg-start gap-4 pb-4"
                   >
-                    <span class="text-primary fw-bolder z-2">1</span>
+                    <span class="display-3 fw-medium text-primary">02.</span>
+                    <h3 class="fw-semibold">Earnings</h3>
                   </div>
+                  <p class="text-center text-lg-start fw-medium">
+                    By driving with tere you can earn more.
+                  </p>
                 </div>
-                <h3 class="h4 text-center text-lg-end fw-bolder text-uppercase">
-                  request a ride
-                </h3>
-                <p class="text-center text-lg-end">
-                  Have to reach office or going for shopping ? Just put your
-                  current location and destination and search a ride that suits
-                  you
-                </p>
-              </section>
+              </div>
 
-              <section
-                class="step pt-5 d-flex flex-column align-items-center align-items-lg-end"
+              <div
+                class="row align-items-center my-5"
+                data-aos="fade-right"
+                data-aos-once="true"
               >
-                <div class="step_num-wrap h4 rounded-circle overflow-hidden">
-                  <div
-                    class="step_num position-relative d-flex justify-content-center align-items-center border border-5 border-primary rounded-circle"
-                  >
-                    <span class="text-primary fw-bolder z-2">2</span>
-                  </div>
-                </div>
-                <h3 class="h4 text-center text-lg-ens fw-bolder text-uppercase">
-                  post a ride
-                </h3>
-                <p class="text-center text-lg-end">
-                  Going somewhere but hate to travel alone - just post your ride
-                  details and publish it
-                </p>
-              </section>
-            </div>
-
-            <div class="col-12 col-lg-4 order-lg-3">
-              <section
-                class="step pt-5 d-flex flex-column align-items-center align-items-lg-start"
-              >
-                <div class="step_num-wrap h4 rounded-circle overflow-hidden">
-                  <div
-                    class="step_num position-relative d-flex justify-content-center align-items-center border border-5 border-primary rounded-circle"
-                  >
-                    <span class="text-primary fw-bolder z-2">3</span>
-                  </div>
-                </div>
-                <h3
-                  class="h4 text-center text-lg-start fw-bolder text-uppercase"
+                <figure class="col-12 col-lg-4 offset-lg-2 text-center">
+                  <img
+                    src="./src/assets/images/benefits-support.png"
+                    class="img-fluid"
+                    alt="Flexible working hours"
+                    width="311"
+                    height="234"
+                    loading="lazy"
+                  />
+                </figure>
+                <div
+                  class="col-12 col-lg-4 flex-column order-lg-first py-4 px-5"
                 >
-                  instant notifications
-                </h3>
-                <p class="text-center text-lg-start">
-                  Get instant notifications for your rides and be in contact
-                  with fellow riders all the time
-                </p>
-              </section>
-
-              <section
-                class="step pt-5 d-flex flex-column align-items-center align-items-lg-start"
-              >
-                <div class="step_num-wrap h4 rounded-circle overflow-hidden">
                   <div
-                    class="step_num position-relative d-flex justify-content-center align-items-center border border-5 border-primary rounded-circle"
+                    class="d-flex align-items-center justify-content-center justify-content-lg-start gap-4 pb-4"
                   >
-                    <span class="text-primary fw-bolder z-2">4</span>
+                    <span class="display-3 fw-medium text-primary">03.</span>
+                    <h3 class="fw-semibold">Customer support 24/7</h3>
                   </div>
+                  <p class="text-center text-lg-start fw-medium">
+                    Tere is a local service provider and we are proud to support
+                    you in your local language. We are proud to be at your
+                    service 24/7!
+                  </p>
                 </div>
-                <h3
-                  class="h4 text-center text-lg-start fw-bolder text-uppercase"
-                >
-                  cashless payment
-                </h3>
-                <p class="text-center text-lg-start">
-                  Payment made easy by using your own Wallet - no more cash to
-                  carry
-                </p>
-              </section>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-      <!-- End How Tere Works Section -->
-
-      <!-- Start Tere Benefits Section -->
-      <div id="benefits" class="py-5">
-        <div class="container">
-          <h2 class="mb-5 text-center fw-bolder text-uppercase">
-            <span class="text-primary">tere</span> benefits
-          </h2>
-
-          <div
-            class="row align-items-center my-5"
-            data-aos="fade-right"
-            data-aos-once="true"
-          >
-            <figure class="col-12 col-lg-4 offset-lg-2 text-center">
-              <img
-                src="./src/assets/images/benefits-flexible.png"
-                class="img-fluid"
-                alt="Flexible working hours"
-                width="257"
-                height="255"
-                loading="lazy"
-              />
-            </figure>
-            <div class="col-12 col-lg-4 flex-column order-lg-first py-4 px-5">
-              <div class="d-flex align-items-center gap-4 pb-4">
-                <span class="display-3 fw-medium text-primary">01.</span>
-                <h3 class="fw-semibold">Flexible working hours</h3>
-              </div>
-              <p class="text-center text-lg-start fw-medium">
-                You can decide when, and how much time you want to drive.
-              </p>
-            </div>
-          </div>
-
-          <div
-            class="row align-items-center my-5"
-            data-aos="fade-left"
-            data-aos-once="true"
-          >
-            <figure class="col-12 col-lg-4 offset-lg-2 text-center">
-              <img
-                src="./src/assets/images/benefits-earnings.png"
-                class="img-fluid"
-                alt="Flexible working hours"
-                width="248"
-                height="227"
-                loading="lazy"
-              />
-            </figure>
-            <div class="col-12 col-lg-4 offset-lg-2 flex-column py-4 px-5">
-              <div class="d-flex align-items-center gap-4 pb-4">
-                <span class="display-3 fw-medium text-primary">02.</span>
-                <h3 class="fw-semibold">Earnings</h3>
-              </div>
-              <p class="text-center text-lg-start fw-medium">
-                By driving with tere you can earn more.
-              </p>
-            </div>
-          </div>
-
-          <div
-            class="row align-items-center my-5"
-            data-aos="fade-right"
-            data-aos-once="true"
-          >
-            <figure class="col-12 col-lg-4 offset-lg-2 text-center">
-              <img
-                src="./src/assets/images/benefits-support.png"
-                class="img-fluid"
-                alt="Flexible working hours"
-                width="311"
-                height="234"
-                loading="lazy"
-              />
-            </figure>
-            <div class="col-12 col-lg-4 flex-column order-lg-first py-4 px-5">
-              <div class="d-flex align-items-center gap-4 pb-4">
-                <span class="display-3 fw-medium text-primary">03.</span>
-                <h3 class="fw-semibold">Customer support 24/7</h3>
-              </div>
-              <p class="text-center text-lg-start fw-medium">
-                Tere is a local service provider and we are proud to support you
-                in your local language. We are proud to be at your service 24/7!
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End Tere Benefits Section -->
+        <!-- End Tere Benefits Section -->
+      </main>
+      <!-- End Main -->
 
       <!-- Start Footer -->
       <footer class="py-4">
@@ -478,7 +518,7 @@
               >
                 <div class="col-6">
                   <a
-                    class="btn btn-primary d-flex align-items-center justify-content-center text-white bg-black fw-bold text-uppercase"
+                    class="btn btn-dark d-flex align-items-center justify-content-center fw-bold text-uppercase"
                     href="#"
                   >
                     <img
@@ -492,7 +532,7 @@
                 </div>
                 <div class="col-6">
                   <a
-                    class="btn btn-primary d-flex align-items-center justify-content-center text-white bg-black fw-bold text-uppercase"
+                    class="btn btn-dark d-flex align-items-center justify-content-center fw-bold text-uppercase"
                     href="#"
                   >
                     <img
